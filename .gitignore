@@ -130,3 +130,6 @@ dmypy.json
 
 # pdf
 .pdf
+
+.ini
+.csv
