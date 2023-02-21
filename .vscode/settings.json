@@ -1,0 +1,7 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "python.autoComplete.extraPaths": [
+    
+    ]
+}
