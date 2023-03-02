@@ -133,4 +133,4 @@ dmypy.json
 
 .ini
 .csv
-.DS_Store
+*/.DS_Store
