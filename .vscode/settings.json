@@ -3,5 +3,14 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "python.autoComplete.extraPaths": [
     
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.fontLigatures": false,
+    "editor.fontVariations": false,
+    "notebook.markup.fontSize": 0,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "notebook.outputFontFamily": "",
+    "editor.inlayHints.fontFamily": "",
+    "editor.inlayHints.fontSize": 0,
+    "editor.fontSize": 16
 }
