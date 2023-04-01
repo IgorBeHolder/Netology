@@ -9,8 +9,8 @@
     "editor.fontVariations": false,
     "notebook.markup.fontSize": 0,
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "notebook.outputFontFamily": "",
     "editor.inlayHints.fontFamily": "",
     "editor.inlayHints.fontSize": 0,
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "notebook.output.fontFamily": ""
 }
