@@ -12,5 +12,6 @@
     "editor.inlayHints.fontFamily": "",
     "editor.inlayHints.fontSize": 0,
     "editor.fontSize": 16,
-    "notebook.output.fontFamily": ""
+    "notebook.output.fontFamily": "",
+    "editor.lineNumbers": "off"
 }
