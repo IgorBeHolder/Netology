@@ -13,5 +13,6 @@
     "editor.inlayHints.fontSize": 0,
     "editor.fontSize": 16,
     "notebook.output.fontFamily": "",
-    "editor.lineNumbers": "off"
+    "editor.lineNumbers": "off",
+    "python.formatting.provider": "autopep8"
 }

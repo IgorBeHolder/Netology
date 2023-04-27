@@ -137,3 +137,6 @@ dmypy.json
 .*
 .vscode/settings.json
 train.csv
+.vscode/settings.json
+requirements.txt
+*/.DS_Store
