@@ -140,3 +140,9 @@ train.csv
 .vscode/settings.json
 requirements.txt
 */.DS_Store
+venv
+Netology.code-workspace
+.DS_Store
+# keras logs
+events.out.*
+*.h5
