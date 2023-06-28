@@ -1,9 +1,7 @@
 {
     "files.autoSave": "afterDelay",
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "python.autoComplete.extraPaths": [
-    
-    ],
+    "python.autoComplete.extraPaths": [],
     "python.analysis.typeCheckingMode": "basic",
     "editor.fontLigatures": false,
     "editor.fontVariations": false,
@@ -11,7 +9,7 @@
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.inlayHints.fontFamily": "",
     "editor.inlayHints.fontSize": 0,
-    "editor.fontSize": 16,
+    "editor.fontSize": 12,
     "notebook.output.fontFamily": "",
     "editor.lineNumbers": "off",
     "python.formatting.provider": "autopep8"
