@@ -11,6 +11,9 @@
     "editor.inlayHints.fontSize": 0,
     "editor.fontSize": 12,
     "notebook.output.fontFamily": "",
-    "editor.lineNumbers": "off",
-    "python.formatting.provider": "autopep8"
+    "editor.lineNumbers": "on",
+    "python.formatting.provider": "autopep8",
+    "zenMode.hideLineNumbers": false,
+    "search.showLineNumbers": true,
+    "notebook.lineNumbers": "on"
 }
