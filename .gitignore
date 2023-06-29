@@ -146,3 +146,4 @@ Netology.code-workspace
 # keras logs
 events.out.*
 *.h5
+.vscode
