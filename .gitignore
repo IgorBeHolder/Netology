@@ -133,13 +133,11 @@ dmypy.json
 
 .ini
 .csv
-*/.DS_Store
-.*
+*DS_Store
 .vscode/settings.json
 train.csv
 .vscode/settings.json
 requirements.txt
-*/.DS_Store
 venv
 Netology.code-workspace
 .DS_Store
