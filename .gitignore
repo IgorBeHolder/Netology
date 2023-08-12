@@ -138,7 +138,7 @@ dmypy.json
 train.csv
 .vscode/settings.json
 requirements.txt
-venv
+venv/*
 Netology.code-workspace
 .DS_Store
 # keras logs
