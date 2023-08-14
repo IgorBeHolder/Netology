@@ -1,6 +1,8 @@
 """Sets the path to the TOP folder so that the modules can be imported"""
 import sys
 import os
+import pandas as pd
+
 
 # from the src folder
 # Windows: set PYTHONPATH=%PYTHONPATH%;C:.....\src
@@ -46,6 +48,31 @@ def print_methods(obj: object) -> None:
     methods_ = [method_name for method_name in dir(obj) if method_name[0] != "_"]
     print(
         f"{len(methods_)} methods for {get_variable_name(obj)} ({obj.__class__}): \n {methods_}"
+    )
+
+
+def check_na(df: pd.DataFrame, dtype_sort=True) -> pd.DataFrame:
+    """
+    Check for missing values in a dataframe
+    df - dataframe
+    sort - sort by column name or by dtype or by nans% (if `category` dtype is present)
+    """
+
+    import pandas as pd
+
+    sort = ["dtype", "nans%"] if dtype_sort else ["nans%"]
+    dict_ = {}
+    for col in df.columns:
+        dict_[col] = {
+            "dtype": df[col].dtype,
+            "nans": df[col].isna().sum(),
+            "nans%": df[col].isna().sum() / df.shape[0] * 100,
+        }
+    return (
+        pd.DataFrame(dict_)
+        .T.sort_values(by=sort, ascending=False)
+        .style.bar(subset=["nans%"], color="#faebd7")
+        .format(precision=1, thousands=",")
     )
 
 

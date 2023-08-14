@@ -15,5 +15,8 @@
     "python.formatting.provider": "autopep8",
     "zenMode.hideLineNumbers": false,
     "search.showLineNumbers": true,
-    "notebook.lineNumbers": "on"
+    "notebook.lineNumbers": "on",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true
 }
