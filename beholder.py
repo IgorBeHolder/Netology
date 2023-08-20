@@ -43,12 +43,13 @@ def get_variable_name(obj: object) -> str:
     return None
 
 
-def print_methods(obj: object) -> None:
+def print_methods(obj: object) -> list:
     """Returns all methods of an object"""
     methods_ = [method_name for method_name in dir(obj) if method_name[0] != "_"]
     print(
         f"{len(methods_)} methods for {get_variable_name(obj)} ({obj.__class__}): \n {methods_}"
     )
+    return methods_
 
 
 def check_na(df: pd.DataFrame, dtype_sort=True) -> pd.DataFrame:
