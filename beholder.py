@@ -52,6 +52,25 @@ def print_methods(obj: object) -> list:
     return methods_
 
 
+def call_methods(obj: object):
+    methods_ = print_methods(obj)
+    for method_name in methods_:
+        try:
+            method = getattr(obj, method_name)
+            if callable(method):
+                print(f"Calling method: {method_name}")
+                try:
+                    result = method()
+                    print(f"Result: {result}\n")
+                except Exception as e:
+                    print(f"Error: {e}\n")
+            else:
+                print(f"{method_name} is not callable.\n")
+        except Exception as e:
+            # print(f"Error: {e}\n")
+            pass
+
+
 def check_na(df: pd.DataFrame, dtype_sort=True) -> pd.DataFrame:
     """
     Check for missing values in a dataframe
