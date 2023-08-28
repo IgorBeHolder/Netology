@@ -45,7 +45,8 @@ def get_variable_name(obj: object) -> str:
 
 def print_methods(obj: object) -> list:
     """Returns all methods of an object"""
-    methods_ = [method_name for method_name in dir(obj) if method_name[0] != "_"]
+    methods_ = [method for method in dir(obj) if callable(getattr(obj, method)) and not method.startswith('_')]
+    # methods_ = [method_name for method_name in dir(obj) if method_name[0] != "_"]
     print(
         f"{len(methods_)} methods for {obj.__class__}: \n {methods_}"
     )
