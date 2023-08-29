@@ -112,8 +112,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-.vscode
-.vscode/settings.json
+.vscode/
 Netology.code-workspace
 
 # Spyder project settings
