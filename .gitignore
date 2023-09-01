@@ -165,3 +165,4 @@ wheels/
 .installed.cfg
 *.egg
 *.csv
+.DS_Store
