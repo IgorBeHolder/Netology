@@ -17,7 +17,7 @@ exceptiongroup==1.1.1
 executing==1.2.0
 folium==0.14.0
 fonttools==4.39.4
-h11==0.14.0
+h11==0.16.0
 idna==3.4
 ipykernel==6.23.1
 ipython==8.13.2
